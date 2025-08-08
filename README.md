@@ -3,15 +3,17 @@ A simple and extensible PHP API controller to handle dynamic actions with ease!
 
 ## How It Works
 
-- The frontend sends an action name to the PHP API via query parameters.
-- The API checks if a PHP function with that action name exists, executes it, and returns a JSON response.
-- The frontend handles the response asynchronously without page reloads (you can optionally reload after actions).
+- Frontend sends an action name to the PHP API via URL query.  
+- API runs the matching PHP function and returns a JSON response.  
+- Frontend handles the response asynchronously (optionally reloads the page).
 
-## Example Usage
+## Sample
 
-### JavaScript (e.g., `script.js`)
+A `sample` folder is included with example code showing how to use the API in practice.
 
-```js
+### JavaScript (script.js)
+
+js
 function CON_MODAL_BUTTON(action, file) {
     fetch(file + '?action=' + encodeURIComponent(action))
         .then(res => res.json())
