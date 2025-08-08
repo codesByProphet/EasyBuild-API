@@ -1,4 +1,4 @@
-# EasyBuild-API
+# EasyBuild-API 1.0.0
 A simple and extensible PHP API controller to handle dynamic actions with ease!
 
 ## How It Works
