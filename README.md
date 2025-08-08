@@ -11,7 +11,9 @@ A simple and extensible PHP API controller to handle dynamic actions with ease!
 
 A `sample` folder is included with example code showing how to use the API in practice.
 
-### JavaScript (script.js)
+## Example Usage
+
+### JavaScript (e.g., script.js)
 
 js
 function CON_MODAL_BUTTON(action, file) {
